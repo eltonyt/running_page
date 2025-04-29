@@ -3,4 +3,7 @@ Code: http://localhost/exchange_token?state=&code=98e0ad5d674740e37f69edd3578c32
 Code: 98e0ad5d674740e37f69edd3578c324238b03fff
 curl -X POST https://www.strava.com/oauth/token -F client_id=155353 -F client_secret=e2a5245ddddcad65fc1e350ec7a998f2a6d1f61d -F code=98e0ad5d674740e37f69edd3578c324238b03fff -F grant_type=authorization_code
 python3 run_page/strava_sync.py 155353 e2a5245ddddcad65fc1e350ec7a998f2a6d1f61d 8cb0b3e5947730485567fb51c31da223bb673809
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7b02d2b (Added strava information synchronization instructions)
