@@ -1,7 +1,7 @@
 interface ISiteMetadataResult {
-  siteTitle: string;
-  siteUrl: string;
-  description: string;
+  siteTitle: 'Elton\'s Running Journey';
+  siteUrl: 'http://heyprojecthub.com/runningjourney';
+  description: 'My Running Journey';
   logo: string;
   navLinks: {
     name: string;
@@ -15,22 +15,14 @@ const getBasePath = () => {
 };
 
 const data: ISiteMetadataResult = {
-  siteTitle: 'Running Page',
-  siteUrl: 'https://yihong.run',
-  logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU',
+  siteTitle: 'Elton\'s Running Journey',
+  siteUrl: 'http://heyprojecthub.com/runningjourney',
+  logo: 'https://eltonpublicwebsite.s3.us-east-1.amazonaws.com/Running_Journal/running_gopher.jpg',
   description: 'Personal site and blog',
   navLinks: [
     {
-      name: 'Summary',
-      url: `${getBasePath()}/summary`,
-    },
-    {
-      name: 'Blog',
-      url: 'https://github.com/yihong0618/gitblog',
-    },
-    {
-      name: 'About',
-      url: 'https://github.com/yihong0618/running_page/blob/master/README-CN.md',
+      name: 'Project URL',
+      url: 'https://github.com/eltonyt/running_page/blob/master/README.md',
     },
   ],
 };
